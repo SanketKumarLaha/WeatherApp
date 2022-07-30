@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanket's Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&family=Poppins:wght@100&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-div">
+        <div class="margin-div">
+          <div class="input-div">
+            <div class="inputField-container" for="">
+              <input type="text" id="inputPlace" value="london" />
+              <button id="search" onclick="onSearch()">Search</button>
+            </div>
+          </div>
+          <div class="top-div">
+            <img id="icon" src="" alt="" />
+          </div>
+          <div class="mid-div">
+            <h1><span id="temp"></span></h1>
+            <h3><span id="place"></span></h3>
+            <h4><span id="sky"></span></h4>
+          </div>
+          <div class="bottom-div">
+            <h4><span id="wind"></span></h4>
+            <h4><span id="humidity"></span></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
