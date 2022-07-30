@@ -99,8 +99,3 @@ h4 {
   font-weight: 400;
   font-size: 1.1rem;
 }
-@media (max-width: 1200px) {
-  * {
-    color: #000;
-  }
-}
