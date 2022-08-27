@@ -48,7 +48,7 @@
   border: none;
   height: 1.5rem;
   flex: 2;
-  padding: 0 15px;
+  padding: 5px 10px;
   color: black;
   font-size: 1rem;
 }
@@ -98,9 +98,4 @@ h3 {
 h4 {
   font-weight: 400;
   font-size: 1.1rem;
-}
-@media (max-width: 1200px) {
-  * {
-    color: #000;
-  }
 }
